@@ -1,12 +1,13 @@
 * {box-sizing:border-box;}
 body, div {margin:0; padding: 0;}
 html, body {height:100%;}
+body {background:grey;}
+
 .wrap {position: relative; min-height: 100%;}
 
-.header {position:fixed;top:0;z-index:99;padding:0 4px;
-  padding-top:env(safe-area-inset-top);padding-top:constant(safe-area-inset-top);width:100%;height:44px;background:lightblue;}
+.header {position:fixed;top:0;z-index:99;padding:0 4px;background:lightblue;}
 
 .content {padding-top:44px;height:100%;}
 
 .floatingBtn {position:fixed;bottom:0;z-index:1000;padding-bottom:calc(env(safe-area-inset-bottom) + 20px);
-padding-bottom:calc(constant(safe-area-inset-bottom) + 20px);width:100%;background:lightsalmon;}  
+padding-bottom:calc(constant(safe-area-inset-bottom) + 15px);width:100%;background:lightsalmon;}  
